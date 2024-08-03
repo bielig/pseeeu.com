@@ -56,4 +56,4 @@ p::first-line { text-decoration: underline; } /* Estiliza a primeira linha do pa
 p::before { content: "Antes do parágrafo. "; } /* Insere conteúdo antes do parágrafo */
 p::after { content: " Depois do parágrafo."; } /* Insere conteúdo depois do parágrafo */
 div::selection { background: blue;  } /* Estiliza o texto selecionado dentro do div */
-body{ background-color: Yellow;}
+
