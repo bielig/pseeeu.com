@@ -1,0 +1,58 @@
+/* Pseudo-classes de link */
+a:link { color: green; } 
+a:visited { color: blue; } 
+a:hover { color: red; } 
+a:active { color: yellow; } 
+
+/* Pseudo-classes de estrutura */
+p:first-child { color: purple; } 
+p:last-child { color: orange; } 
+p:nth-child(2) { color: pink; } 
+p:nth-last-child(2) { color: cyan; } 
+p:first-of-type { text-decoration: underline; } 
+p:last-of-type { text-decoration: line-through; } 
+p:nth-of-type(2) { font-weight: bold; } 
+p:nth-last-of-type(2) { font-style: italic; } 
+p:only-child { background-color: lightgrey; } 
+p:only-of-type { border: 1px solid black; } 
+p:empty { display: none; } 
+
+/* Pseudo-classes de usuário */
+input:enabled { border: 1px solid green; } 
+input:disabled { border: 1px solid red; } 
+input:checked { background-color: lightgreen; } 
+input:indeterminate { background-color: lightgrey; } 
+
+/* Pseudo-classes de negação */
+p:not(.special) { color: grey; } 
+
+/* Pseudo-classes de linguagem */
+p:lang(en) { color: blue; } 
+p:lang(es) { color: red; } 
+
+/* Pseudo-classes de tempo */
+video:current-time { border: 1px solid green; } 
+video:past { border: 1px solid red; } 
+video:future { border: 1px solid blue; } 
+
+/* Pseudo-classes de localização */
+:target { background-color: yellow; } 
+
+/* Pseudo-classes de entrada */
+input:required { border: 1px solid red; } 
+input:optional { border: 1px solid green; } 
+input:read-only { background-color: lightgrey; } 
+input:read-write { background-color: white; } 
+input:placeholder-shown { color: grey; } 
+input:default { border: 1px solid black; } 
+input:in-range { color: green; } 
+input:out-of-range { color: red; } 
+input:valid { border: 1px solid green; } 
+input:invalid { border: 1px solid red; } 
+
+/* Pseudo-elementos */
+p::first-letter { font-size: 200%; color: red; } /* Estiliza a primeira letra do parágrafo */
+p::first-line { text-decoration: underline; } /* Estiliza a primeira linha do parágrafo */
+p::before { content: "Antes do parágrafo. "; } /* Insere conteúdo antes do parágrafo */
+p::after { content: " Depois do parágrafo."; } /* Insere conteúdo depois do parágrafo */
+div::selection { background: blue;  } /* Estiliza o texto selecionado dentro do div */
